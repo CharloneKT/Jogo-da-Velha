@@ -1,0 +1,85 @@
+html {
+    margin: 0px;
+}
+
+body {
+    font-size: x-large;
+    background: #282828;
+    text-align: right;
+}
+
+
+h1 {
+
+    font-size: 70px;
+    margin-left: 80px;
+    margin-top: 200px;
+    text-align: left;
+    color: #943b27;
+    font-family: 'Arial Black', arial;
+}
+
+.img {
+    float: left;
+    margin-left: 300px;
+    margin-top: -170px;
+}
+
+.jogador,.vencedor {
+    margin-left: 120px;
+    text-align: left;
+    font-family: 'super boom', Arial Black, arial;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.todosQuadrados {
+    margin-top: -330px;
+
+}
+
+.quadrado:hover {
+    background: #EE0E0E;
+    color: #EE0E0E;
+}
+
+.quadrado {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: #943b27;
+    display: inline-block;
+    padding: 40px;
+    font-size: 90px;
+    margin: 10px;
+    cursor: pointer;
+    color: #943b27;
+}
+
+.resto {
+    margin-top: -300px;
+    margin-left: 100px;
+}
+
+.botao {
+    margin-left: 170px;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #36F70B;
+    color: #fff;
+}
+
+button {
+    font-family: 'super boom', Arial Black, arial;
+    font-size: 25px;
+    color: #C2C1C1;
+    margin-top: 50px;
+    width: 160px;
+    height: 60px;
+    background: #128711;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -17,7 +17,7 @@ function escolherquadrado(id) {
     }
 
     quadrado.innerHTML = jogador;
-    quadrado.style.color = '#fff';
+    quadrado.style.color = '#f50000';
 
     if (jogador === 'X') {
         jogador = 'O';
@@ -124,10 +124,10 @@ function reiniciar() {
     for (var i = 1; i <= 9; i++) {
         var quadrado = document.getElementById(i);
         var quadradoHover = document.getElementById(i);
-        quadrado.style.background = '#943b27';
-        quadrado.style.color = '#943b27';
+        quadrado.style.background = '#fff';
+        quadrado.style.color = '#fff';
         quadrado.innerHTML = '-';
-        quadradoHover.style = '#EE0E0E';
+        quadradoHover.style = '#9c9c9c';
     }
 
     mudarjogador('X');

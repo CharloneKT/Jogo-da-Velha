@@ -12,70 +12,79 @@
 
     <body>
 
-        <div class="img">
-            <img src="img/jogo-da-velha.png" alt="velha" width="150" height="150">
+        <div class="container">
+
+            <div class="conteudo1">
+
+                <div class="img">
+                    <img src="img/jogo-da-velha.png" alt="velha">
+                </div>
+
+                <h1>
+                    <p>Jogo da Velha</p>
+                </h1>
+
+                <section class="resto">
+
+                    <div class="jogador">
+                        <label>
+                            Jogador:
+                        </label>
+                        <label id='jogador-selecionado'>
+
+                        </label>
+                    </div>
+
+                    <div class="vencedor">
+                        <label>
+                            Vencedor:
+                        </label>
+                        <label id='vencedor-selecionado'>
+
+                        </label>
+                    </div>
+
+                    <div class="botao">
+                        <button onclick="reiniciar()">
+                            Reiniciar
+                        </button>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="conteudo2">
+
+                <div class="todosQuadrados">
+
+                    <div>
+                        <div id='1' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+                        <div id='2' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+                        <div id='3' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+
+                    </div>
+
+
+                    <div>
+                        <div id='4' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+                        <div id='5' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+                        <div id='6' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+
+                    </div>
+
+                    <div>
+                        <div id='7' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+                        <div id='8' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+                        <div id='9' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-
-        <h1>
-            Jogo da Velha
-        </h1>
-
-        <div class="todosQuadrados">
-
-            <div>
-                <div id='1' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-                <div id='2' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-                <div id='3' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-
-            </div>
-
-
-            <div>
-                <div id='4' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-                <div id='5' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-                <div id='6' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-
-            </div>
-
-            <div>
-                <div id='7' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-                <div id='8' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-                <div id='9' class="quadrado" onclick="escolherquadrado(this.id)">-</div>
-
-            </div>
-
-        </div>
-
-        <section class="resto">
-
-            <div class="jogador">
-                <label>
-                    Jogador:
-                </label>
-                <label id='jogador-selecionado'>
-
-                </label>
-            </div>
-
-            <div class="vencedor">
-                <label>
-                    Vencedor:
-                </label>
-                <label id='vencedor-selecionado'>
-
-                </label>
-            </div>
-
-            <div class="botao">
-                <button onclick="reiniciar()">
-                    Reiniciar
-                </button>
-            </div>
-
-        </section>
 
     </body>
-
-
 
 </html>
